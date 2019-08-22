@@ -10,7 +10,7 @@ void setup() {
 }
 
 void loop() {
-  int mesh_publish_result = (2 + 3); // Try changing the values within the parentheses to make it not equal to 4.
+  int mesh_publish_result = (2 + 2); // Try changing the values within the parentheses to make it not equal to 4.
   Serial.print("mesh_publish_result is now: ");
   Serial.println(mesh_publish_result);
 
